@@ -5,6 +5,10 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App style={{
+                display: 'grid',
+                gridTemplateColumns: '1fr',
+                gridGap: 16,
+                paddingBottom: 24,}}/>
   </React.StrictMode>
 );
